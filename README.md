@@ -1,2 +1,2 @@
 # html-store
-Simple HTML store website
+Simple HTML store website2
