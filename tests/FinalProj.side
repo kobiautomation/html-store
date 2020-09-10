@@ -1,0 +1,324 @@
+{
+  "id": "a9092061-a8ce-4dd6-8a10-07712ae48f53",
+  "version": "2.0",
+  "name": "FinalProj",
+  "url": "http://kobijenkins.ddns.net:8085",
+  "tests": [{
+    "id": "1c79e32d-e084-47b2-995e-48127f195b49",
+    "name": "ProductPage",
+    "commands": [{
+      "id": "f3438b6f-bbfe-45f4-a8f0-b410874e895f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78439c76-90ad-4b56-ac5e-d7f574e20f67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1039",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb4499d7-8df2-4a57-8bcf-d33005d298da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav > li:nth-child(3) > a",
+      "targets": [
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Single product')]", "xpath:link"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'single-product.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a414c892-914a-4113-96ae-535ade4e864a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-name",
+      "targets": [
+        ["css=.product-name", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1372852f-23f3-478d-9779-63746e01a185",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.product-name",
+      "targets": [
+        ["css=.product-name", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/h2", "xpath:position"]
+      ],
+      "value": "Sony Smart TV - 2015"
+    }, {
+      "id": "ea21ed7c-1591-4d17-bd1a-551c530802c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-inner-price",
+      "targets": [
+        ["css=.product-inner-price", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d53dae32-3ac7-414d-8dc8-a922f6f6f05a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.product-inner-price > ins",
+      "targets": [
+        ["css=.product-inner-price > ins", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/ins", "xpath:position"]
+      ],
+      "value": "$700.00"
+    }, {
+      "id": "d45a2c6d-aff2-4726-981f-39a25d60c734",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "a92ca52d-1b4f-4a63-94a7-5f4504d29121",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b9c714f-fbff-4c9f-9c69-9c074874cd28",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "08636230-928e-430c-a54d-6adc0f1fff76",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e92aebee-80fa-4c03-b7de-a08122146b08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .col-sm-6:nth-child(2)",
+      "targets": [
+        ["css=.row:nth-child(2) > .col-sm-6:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ba043e-d58b-4e1d-862e-212f5f0e66c1",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "3"
+    }]
+  }, {
+    "id": "8900080a-f647-4665-88d5-b82c2f550cba",
+    "name": "CartPage",
+    "commands": [{
+      "id": "be554b55-4fa1-4488-9ff6-37c569550a20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43945fd7-302c-43e5-81c6-6df1abcc4b60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x1039",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52749cfc-0a9b-4167-81ba-5bb9fc7a69e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav > li:nth-child(4) > a",
+      "targets": [
+        ["css=.nav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cart')])[3]", "xpath:link"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'cart.html')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "744cd256-777e-4fd2-b20b-65f86f16ca1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart_totals > h2",
+      "targets": [
+        ["css=.cart_totals > h2", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf5da814-6dab-4af7-b416-1064166f6cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart_totals > h2",
+      "targets": [
+        ["css=.cart_totals > h2", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1818588-d791-4239-8439-01978195cfe0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.cart_totals > h2",
+      "targets": [
+        ["css=.cart_totals > h2", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f0d8c26-4b8d-45fb-a0bc-9c7ca59ed79d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart_totals > h2",
+      "targets": [
+        ["css=.cart_totals > h2", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a8101d-f9eb-4915-84ed-c0a7f31a6940",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cart_totals > h2",
+      "targets": [
+        ["css=.cart_totals > h2", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/h2", "xpath:position"]
+      ],
+      "value": "CART TOTALS"
+    }, {
+      "id": "e3debe1d-cef4-4bf0-bd13-84421c0d0726",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity",
+      "targets": [
+        ["css=.quantity", "css:finder"],
+        ["xpath=//td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "935f4fdb-881b-49bc-bb29-db020c9abae2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88c45337-2152-43ae-bed7-33ccb0aeab1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbfea217-3519-4c66-85cf-c011bd9acf26",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.qty",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d85eba-d2d8-4b18-b434-89c0806a0037",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8e3835b-272d-432c-a6b7-a840563d8a20",
+      "comment": "",
+      "command": "type",
+      "target": "css=.qty",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "e8b21d9f-407d-4690-ae55-d16164bf1376",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=strong > .amount",
+      "targets": [
+        ["css=strong > .amount", "css:finder"],
+        ["xpath=//strong/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ff5a7d-1293-40a3-813c-c937dadfd050",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong > .amount",
+      "targets": [
+        ["css=strong > .amount", "css:finder"],
+        ["xpath=//strong/span", "xpath:position"]
+      ],
+      "value": "£15.00"
+    }]
+  }],
+  "suites": [{
+    "id": "9c4cd92b-d9ac-48d7-a1cb-0b45cd21b549",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1c79e32d-e084-47b2-995e-48127f195b49", "8900080a-f647-4665-88d5-b82c2f550cba"]
+  }],
+  "urls": ["http://kobijenkins.ddns.net:8085/"],
+  "plugins": []
+}
