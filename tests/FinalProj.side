@@ -2,7 +2,7 @@
   "id": "a9092061-a8ce-4dd6-8a10-07712ae48f53",
   "version": "2.0",
   "name": "FinalProj",
-  "url": "http://kobijenkins.ddns.net:8085",
+  "url": "http://kobijenkins.ddns.net:8085/dev",
   "tests": [{
     "id": "1c79e32d-e084-47b2-995e-48127f195b49",
     "name": "ProductPage",
@@ -10,7 +10,7 @@
       "id": "f3438b6f-bbfe-45f4-a8f0-b410874e895f",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/dev",
       "targets": [],
       "value": ""
     }, {
@@ -151,7 +151,7 @@
       "id": "be554b55-4fa1-4488-9ff6-37c569550a20",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/dev",
       "targets": [],
       "value": ""
     }, {
@@ -319,6 +319,6 @@
     "timeout": 300,
     "tests": ["1c79e32d-e084-47b2-995e-48127f195b49", "8900080a-f647-4665-88d5-b82c2f550cba"]
   }],
-  "urls": ["http://kobijenkins.ddns.net:8085/"],
+  "urls": ["http://kobijenkins.ddns.net:8085/dev"],
   "plugins": []
 }
